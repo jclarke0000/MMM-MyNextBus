@@ -39,7 +39,7 @@ This shows you upcoming vehicle arrival times for any transit agency supported b
 
 ### Transit Agency
 
-Go here for the list of agencies supported by NextBus:
+See the bottom of this README, or go here for the list of agencies supported by NextBus:
 http://webservices.nextbus.com/service/publicXMLFeed?command=agencyList
 
 Find the agency you'd like, and copy the `tag` value into your config file.  e.g. `agency : 'ttc'`
