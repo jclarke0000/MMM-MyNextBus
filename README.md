@@ -213,3 +213,708 @@ Lastly, it should be noted that this module will hide a route entirely if there 
 your list entries, it's because that particular route isn't currently running, say because it's late at night or because the particular route
 only operates during rush hour (e.g.: the downtown express routes).
 
+
+
+## List of Transit Agencies Supported by NextBus
+
+Current as of 7-July-2017
+
+<table>
+  <thead>
+    <tr>
+      <th>
+        Agency
+      </th>
+      <th>
+        Region
+      </th>
+      <th>
+        Tag (value for config)
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        AC Transit
+      </td>
+      <td>
+        California-Northern
+      </td>
+      <td>
+        actransit
+      </td>
+    </tr>
+    <tr>
+      <td>
+        APL
+      </td>
+      <td>
+        Maryland
+      </td>
+      <td>
+        jhu-apl
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Asheville Redefines Transit
+      </td>
+      <td>
+        North Carolina
+      </td>
+      <td>
+        art
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Atlanta Streetcar - Beta
+      </td>
+      <td>
+        Georgia
+      </td>
+      <td>
+        atlanta-sc
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Brockton Area Transit Authority
+      </td>
+      <td>
+        Massachusetts
+      </td>
+      <td>
+        brockton
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Camarillo Area (CAT)
+      </td>
+      <td>
+        California-Southern
+      </td>
+      <td>
+        camarillo
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Cape Cod Regional Transit Authority (CCRTA)
+      </td>
+      <td>
+        Massachusetts
+      </td>
+      <td>
+        ccrta
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Chapel Hill Transit
+      </td>
+      <td>
+        North Carolina
+      </td>
+      <td>
+        chapel-hill
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Charles River TMA - EZRide
+      </td>
+      <td>
+        Massachusetts
+      </td>
+      <td>
+        charles-river
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Charm City Circulator
+      </td>
+      <td>
+        Maryland
+      </td>
+      <td>
+        charm-city
+      </td>
+    </tr>
+    <tr>
+      <td>
+        City College NYC
+      </td>
+      <td>
+        New York
+      </td>
+      <td>
+        ccny
+      </td>
+    </tr>
+    <tr>
+      <td>
+        City of Oxford
+      </td>
+      <td>
+        Mississippi
+      </td>
+      <td>
+        oxford-ms
+      </td>
+    </tr>
+    <tr>
+      <td>
+        City of West Hollywood
+      </td>
+      <td>
+        California-Southern
+      </td>
+      <td>
+        west-hollywood
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Config Stuff
+      </td>
+      <td>
+        Other
+      </td>
+      <td>
+        configdev
+      </td>
+    </tr>
+    <tr>
+      <td>
+        CyRide
+      </td>
+      <td>
+        Iowa
+      </td>
+      <td>
+        cyride
+      </td>
+    </tr>
+    <tr>
+      <td>
+        DC Circulator
+      </td>
+      <td>
+        District of Columbia
+      </td>
+      <td>
+        dc-circulator
+      </td>
+    </tr>
+    <tr>
+      <td>
+        DC Streetcar
+      </td>
+      <td>
+        District of Columbia
+      </td>
+      <td>
+        dc-streetcar
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Downtown Connection
+      </td>
+      <td>
+        New York
+      </td>
+      <td>
+        da
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Downtown Connection
+      </td>
+      <td>
+        New York
+      </td>
+      <td>
+        dta
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Dumbarton Express
+      </td>
+      <td>
+        California-Northern
+      </td>
+      <td>
+        dumbarton
+      </td>
+    </tr>
+    <tr>
+      <td>
+        East Carolina University
+      </td>
+      <td>
+        North Carolina
+      </td>
+      <td>
+        ecu
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Escalon eTrans
+      </td>
+      <td>
+        California-Northern
+      </td>
+      <td>
+        escalon
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Fairfax (CUE)
+      </td>
+      <td>
+        Virginia
+      </td>
+      <td>
+        fairfax
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Foothill Transit
+      </td>
+      <td>
+        California-Southern
+      </td>
+      <td>
+        foothill
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Fort Worth The T
+      </td>
+      <td>
+        Texas
+      </td>
+      <td>
+        ft-worth
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Glendale Beeline
+      </td>
+      <td>
+        California-Southern
+      </td>
+      <td>
+        glendale
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Gold Coast Transit
+      </td>
+      <td>
+        California-Southern
+      </td>
+      <td>
+        south-coast
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Indianapolis International Airport
+      </td>
+      <td>
+        Indiana
+      </td>
+      <td>
+        indianapolis-air
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Jacksonville Transportation Authority
+      </td>
+      <td>
+        Florida
+      </td>
+      <td>
+        jtafla
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Los Angeles Metro
+      </td>
+      <td>
+        California-Southern
+      </td>
+      <td>
+        lametro
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Los Angeles Rail
+      </td>
+      <td>
+        California-Southern
+      </td>
+      <td>
+        lametro-rail
+      </td>
+    </tr>
+    <tr>
+      <td>
+        MBTA
+      </td>
+      <td>
+        Massachusetts
+      </td>
+      <td>
+        mbta
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Massachusetts Institute of Technology
+      </td>
+      <td>
+        Massachusetts
+      </td>
+      <td>
+        mit
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Mission Bay
+      </td>
+      <td>
+        California-Northern
+      </td>
+      <td>
+        sf-mission-bay
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Moorpark Transit
+      </td>
+      <td>
+        California-Southern
+      </td>
+      <td>
+        moorpark
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Nova Southeastern University
+      </td>
+      <td>
+        Florida
+      </td>
+      <td>
+        nova-se
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Omnitrans
+      </td>
+      <td>
+        California-Southern
+      </td>
+      <td>
+        omnitrans
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Palos Verdes Transit
+      </td>
+      <td>
+        California-Southern
+      </td>
+      <td>
+        pvpta
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Pensacola Beach (SRIA)
+      </td>
+      <td>
+        Florida
+      </td>
+      <td>
+        sria
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Portland Streetcar
+      </td>
+      <td>
+        Oregon
+      </td>
+      <td>
+        portland-sc
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Prince Georges County
+      </td>
+      <td>
+        Maryland
+      </td>
+      <td>
+        pgc
+      </td>
+    </tr>
+    <tr>
+      <td>
+        RTC RIDE, Reno
+      </td>
+      <td>
+        Nevada
+      </td>
+      <td>
+        reno
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Radford Transit
+      </td>
+      <td>
+        Virginia
+      </td>
+      <td>
+        radford
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Roosevelt Island
+      </td>
+      <td>
+        New York
+      </td>
+      <td>
+        roosevelt
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Rutgers Univ. Newark College Town Shuttle
+      </td>
+      <td>
+        New Jersey
+      </td>
+      <td>
+        rutgers-newark
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Rutgers University
+      </td>
+      <td>
+        New Jersey
+      </td>
+      <td>
+        rutgers
+      </td>
+    </tr>
+    <tr>
+      <td>
+        SEPTA
+      </td>
+      <td>
+        Pennsylvania
+      </td>
+      <td>
+        septa
+      </td>
+    </tr>
+    <tr>
+      <td>
+        San Francisco Muni
+      </td>
+      <td>
+        California-Northern
+      </td>
+      <td>
+        sf-muni
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Seattle Streetcar
+      </td>
+      <td>
+        Washington
+      </td>
+      <td>
+        seattle-sc
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Simi Valley (SVT)
+      </td>
+      <td>
+        California-Southern
+      </td>
+      <td>
+        simi-valley
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Societe de transport de Laval
+      </td>
+      <td>
+        Quebec
+      </td>
+      <td>
+        stl
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Sonoma County Transit
+      </td>
+      <td>
+        California-Northern
+      </td>
+      <td>
+        sct
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Thousand Oaks Transit (TOT)
+      </td>
+      <td>
+        California-Southern
+      </td>
+      <td>
+        thousand-oaks
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Toronto Transit Commission (TTC)
+      </td>
+      <td>
+        Ontario
+      </td>
+      <td>
+        ttc
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Unitrans ASUCD/City of Davis
+      </td>
+      <td>
+        California-Northern
+      </td>
+      <td>
+        unitrans
+      </td>
+    </tr>
+    <tr>
+      <td>
+        University of California San Francisco
+      </td>
+      <td>
+        California-Northern
+      </td>
+      <td>
+        ucsf
+      </td>
+    </tr>
+    <tr>
+      <td>
+        University of Maryland
+      </td>
+      <td>
+        Maryland
+      </td>
+      <td>
+        umd
+      </td>
+    </tr>
+    <tr>
+      <td>
+        University of Minnesota
+      </td>
+      <td>
+        Minnesota
+      </td>
+      <td>
+        umn-twin
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Ventura Intercity (VCTC)
+      </td>
+      <td>
+        California-Southern
+      </td>
+      <td>
+        vista
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Western Kentucky University
+      </td>
+      <td>
+        Kentucky
+      </td>
+      <td>
+        wku
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Winston-Salem
+      </td>
+      <td>
+        North Carolina
+      </td>
+      <td>
+        winston-salem
+      </td>
+    </tr>
+    <tr>
+      <td>
+        York College
+      </td>
+      <td>
+        Pennsylvania
+      </td>
+      <td>
+        york-pa
+      </td>
+    </tr>
+  </tbody>
+</table>

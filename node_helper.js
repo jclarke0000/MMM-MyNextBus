@@ -58,7 +58,6 @@ module.exports = NodeHelper.create({
     var resultList = new Array;
     var rawJSON = JSON.parse(JSONText);
 
-    console.log(JSONText);
 
     //for some reason, the JSON feed does not place single child
     //predictions in an array.  So we need to fake it in order for
@@ -128,7 +127,6 @@ module.exports = NodeHelper.create({
         }
       }
 
-      console.log(JSON.stringify(route));
       resultList.push(route);
 
     }
