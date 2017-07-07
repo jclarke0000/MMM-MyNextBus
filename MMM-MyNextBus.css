@@ -1,4 +1,4 @@
-.MMM-MyTTC .route-container {
+.MMM-MyNextBus .route-container {
   position: relative;
   padding: 1px;
   border-bottom: solid 1px #222;
@@ -6,7 +6,7 @@
   margin-bottom: 12px;
 }
 
-.MMM-MyTTC .route-title {
+.MMM-MyNextBus .route-title {
   display: block;
   font-size: 20px;
   white-space: nowrap;
@@ -16,43 +16,23 @@
   margin-left: 30px;
 }
 
-.MMM-MyTTC .route-title .route-no {
+.MMM-MyNextBus .route-title .route-no {
   display: inline-block;
-  background-color: #be0e0e;
-  border: solid 2px #be0e0e;
+  background-color: #FFFFFF;
+  border: solid 2px #FFFFFF;
+  color: #000000;
   line-height: 18px;
   border-radius: 5px;
   font-weight: 700;
   text-align: center;
-  width: 40px;
-}
-
-.MMM-MyTTC .route-container.express .route-title .route-no {
-  background-color: #00A651;
-  border-color: #00A651;
-}
-
-.MMM-MyTTC .route-container.downtown-express .route-title .route-no {
-  background-color: #FFFFFF;
-  border-color: #00A651;
-  color: #00A651;
-}
-
-.MMM-MyTTC .route-container.all-night .route-title .route-no {
-  background-color: #FFFFFF;
-  border-color: #00A8D2;
-  color: #00A8D2;
+  margin-right: 6px;
+  padding: 0 6px;
+  text-transform: uppercase;
 }
 
 
-.MMM-MyTTC .route-container.community .route-title .route-no {
-  background-color: #FFFFFF;
-  border-color: #808080;
-  color: #808080;
-}
 
-
-.MMM-MyTTC .stop-title {
+.MMM-MyNextBus .stop-title {
   display: block;
   font-size: 16px;
   white-space: nowrap;
@@ -63,21 +43,21 @@
   margin-bottom: 12px;
 }
 
-.MMM-MyTTC .branch-container {
+.MMM-MyNextBus .branch-container {
   font-size: 16px;
   line-height: 18px;
   position: relative;
   margin-bottom: 6px;
 }
 
-.MMM-MyTTC .branch-container .branch-title {
+.MMM-MyNextBus .branch-container .branch-title {
   display: block;
   margin-left: 30px;
   margin-right: 100px;
   text-transform: uppercase;
 }
 
-.MMM-MyTTC .branch-container .next-vehicles {
+.MMM-MyNextBus .branch-container .next-vehicles {
   text-align: right;
   white-space: nowrap;
   position: absolute;
@@ -86,7 +66,7 @@
 
 }
 
-.MMM-MyTTC .transit-icon {
+.MMM-MyNextBus .transit-icon {
   width: 24px;
   height: 24px;
   display: block;
@@ -96,6 +76,6 @@
   left: 0px;
 }
 
-.MMM-MyTTC .branch-container .next-vehicles .arriving-soon {  
+.MMM-MyNextBus .branch-container .next-vehicles .arriving-soon {  
   color: #a3ea80;
 }
