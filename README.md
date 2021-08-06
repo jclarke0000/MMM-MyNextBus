@@ -40,7 +40,7 @@ This shows you upcoming vehicle arrival times for any transit agency supported b
 ### Transit Agency
 
 See the bottom of this README, or go here for the list of agencies supported by NextBus:
-http://webservices.nextbus.com/service/publicXMLFeed?command=agencyList
+https://retro.umoiq.com/service/publicXMLFeed?command=agencyList
 
 Find the agency you'd like, and copy the `tag` value into your config file.  e.g. `agency : 'ttc'`
 
@@ -49,9 +49,9 @@ Find the agency you'd like, and copy the `tag` value into your config file.  e.g
 Each entry in your `routeList` consists of a route tag and stop tag.  In all of the URL examples below, you'll need to replace the `a=ttc` parameter with your agency.  (e.g.: `a=rutgers`)
 
 First determine which routes you're interested in (e.g.: `501` for the Queen St. streetcar). The full list of routes are listed here:
-http://webservices.nextbus.com/service/publicXMLFeed?command=routeList&a=ttc
+https://retro.umoiq.com/service/publicXMLFeed?command=routeList&a=ttc
 
-Next, got to `http://webservices.nextbus.com/service/publicXMLFeed?command=routeConfig&a=ttc&r=501`.  Replace the parameter `r=501` in the URL
+Next, got to `https://retro.umoiq.com/service/publicXMLFeed?command=routeConfig&a=ttc&r=501`.  Replace the parameter `r=501` in the URL
 with whatever route you're interested in.  Determine which stop you want to see arrival times for. Usually this will be the one you
 normally go to to wait for your bus or streetcar.  You'll need the value in the `tag` parameter, for example `2332`, as found in this line:
 
@@ -66,7 +66,7 @@ At bare minimum you need one entry, with two properties:
 * `stop` - the stop tag along the route.
 
 You can test that you have the right combination by going to:
-`http://webservices.nextbus.com/service/publicXMLFeed?&command=predictionsForMultiStops&a=ttc&stops=501|2332`.  Replace the `stops` parameter
+`https://retro.umoiq.com/service/publicXMLFeed?&command=predictionsForMultiStops&a=ttc&stops=501|2332`.  Replace the `stops` parameter
 at the end of the URL with the route tag and stop tag separater by the pipe `|` character.
 
 Repeat for as many stops and routes as you would like.
